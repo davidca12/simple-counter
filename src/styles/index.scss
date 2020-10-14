@@ -1,0 +1,74 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+body{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numeros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(75,72,124);
+    background: linear-gradient(90deg, rgba(75,72,124,1) 100%, rgba(121,9,9,1) 100%, rgba(0,212,255,1) 100%);
+    color: black;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
+}
+
+.numerosRe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
+}
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    padding:0;
+}
+.puntos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: black;
+}
+.reloj{
+    display: flex;
+    flex-direction: column;
+}
+.contador{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    margin-top: 50px;
+    width: 30%;
+    text-align: center;
+}
+button{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+span{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    border-radius: 50%;
+}
+
+input:focus {outline:0;}
+button:focus {outline:0;}
